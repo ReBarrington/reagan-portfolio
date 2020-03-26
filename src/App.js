@@ -1,6 +1,7 @@
 import React from 'react';
 import Introduction from './components/Introduction';
 import Skills from './components/Skills';
+import Portfolio from './components/Portfolio';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Introduction />
       <Skills />
+      <Portfolio />
     </div>
   );
 }

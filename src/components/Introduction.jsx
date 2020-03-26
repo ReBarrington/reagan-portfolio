@@ -9,6 +9,9 @@ const Introduction = () => {
             <div className='text-section'>
                 <h1>Reagan Barrington</h1>
                 <p>Hi, I'm a Full Stack Web Development Student at Lambda School.</p>
+                <div className='icons'>
+                    
+                </div>
             </div>
         </div>
     )
