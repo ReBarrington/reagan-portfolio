@@ -13,7 +13,8 @@ const PortfolioItem = props => {
             <h1>{props.name}</h1>
             {/* <img src={props.imageURL} alt='screenshot of project'></img> */}
             <p>{props.description}</p>
-                <button onClick={linkToCode}>see my code</button>
+            <button onClick={linkToCode}>see my code</button>
+            <button>see deployed project</button>
         </div>
     )
 }
