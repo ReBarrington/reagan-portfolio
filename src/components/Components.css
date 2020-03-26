@@ -3,7 +3,11 @@
 
 * {
     margin: 2%;
+    padding: 1%;
+    font-family: 'Fjalla One', sans-serif;
 }
+
+/* INTRODUCTION COMPONENT  */
 
 .introduction-container {
     background-color: #1C483D;
@@ -21,14 +25,48 @@
 }
 
 .text-section {
-    /* color: #5E9678; */
     color: white;
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
-    font-family: 'Fjalla One', sans-serif;
 }
 
 .text-section p {
     color: #5E9678;
+}
+
+/* SKILLS COMPONENT  */
+
+.skills-container {
+    background-color: #1C483D;
+    border: white solid 5px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    color: #5E9678;
+}
+
+.skills-container h2 {
+    color: white;
+    border: white solid 3px;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.skills {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills h3 {
+    color: white;
+}
+
+.skill-box {
+    width: 40%;
+    border: #5E9678 solid 3px;
+    border-radius: 10px;
 }
