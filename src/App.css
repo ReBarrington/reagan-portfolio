@@ -1,3 +1,21 @@
+/* Color Theme:
+
+  darkest green : #04201F
+  lightest blue : #568387
+  medium green : #1C483D
+  lightest green : #5E9678
+
+  Fonts:
+
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Meddon', cursive;
+
+*/
+
 .App {
   text-align: center;
+  padding: 5%;
+  border: white solid 5px;
+  border-radius: 30px;
 }
